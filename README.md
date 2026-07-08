@@ -318,7 +318,7 @@ main/04_Conversation.md
 
 | 항목 | 내용 |
 |---|---|
-| 모델명 | GPT-5.4-mini |
+| 모델명 | GPT-5.4-mini(x0.5) |
 | 요금제 | 사용 환경에 따라 확인 필요 |
 | 사용 채널 | Web |
 | 테스트 날짜 | 2026-07-02 |
@@ -335,16 +335,13 @@ main/04_Conversation.md
 프로젝트 전체 구조는 다음과 같습니다.
 
 ```text
-education-ai-support-automation
+main
 │
 ├── README.md
-│
-├── main
-│   ├── 01_Report.md
-│   ├── 02_System_Design.md
-│   ├── 03_Execution_Log.md
-│   └── 04_Original_Conversation.md
-│
+├── 01_Report.md
+├── 02_System_Design.md
+├── 03_Execution_Log.md
+└── 04_Original_Conversation.md
 └── prompts
     ├── system_prompt_v1.md
     ├── system_prompt_v2.md
