@@ -247,6 +247,25 @@ main/03_Logs.md
 - 환각 검증 결과
 - Pass / Fail 판정
 
+
+---
+
+## 부록) 원본 대화 전문
+
+파일:
+
+main/04_Conversation.md
+
+
+주요 내용:
+
+- AI와 실제 수행한 원본 대화 전문
+- 수정하지 않은 Turn별 대화 기록
+- 실행 로그 재현을 위한 원본 데이터
+- 동일 테스트 재현 가능성을 위한 기록 관리
+
+※ `03__Logs.md`는 가독성을 위해 정리한 실행 결과 문서이며, 원본 대화 전문은 별도 파일로 보관합니다.
+
 ---
 
 # 9. 환각(Hallucination) 검증 기준
@@ -299,11 +318,13 @@ main/03_Logs.md
 
 | 항목 | 내용 |
 |---|---|
-| 모델명 | GPT-5.4-mini(x0.5) |
+| 모델명 | GPT-5.4-mini |
+| 요금제 | 사용 환경에 따라 확인 필요 |
 | 사용 채널 | Web |
 | 테스트 날짜 | 2026-07-02 |
 | 주요 설정 | Temperature : 기본, Reasoning : 기본 |
-| 요금제 | 무료/유료 |
+
+※ 무료 버전 사용 시 사용량 제한 및 일부 기능 제한이 발생할 수 있습니다.
 
 ※ 실제 운영 시 모델 버전, 요금제, 사용 환경에 따라 결과가 달라질 수 있습니다.
 
@@ -321,12 +342,15 @@ education-ai-support-automation
 ├── main
 │   ├── 01_Report.md
 │   ├── 02_System_Design.md
-│   └── 03_Logs.md
+│   ├── 03_Execution_Log.md
+│   └── 04_Original_Conversation.md
 │
 └── prompts
     ├── system_prompt_v1.md
     ├── system_prompt_v2.md
     └── user_input_template.md
+
+
 ```
 
 # 12. 기대 효과
