@@ -336,17 +336,11 @@ main/04_Conversation.md
 
 ```text
 main
-│
 ├── README.md
 ├── 01_Report.md
 ├── 02_System_Design.md
-├── 03_Execution_Log.md
-└── 04_Original_Conversation.md
-└── prompts
-    ├── system_prompt_v1.md
-    ├── system_prompt_v2.md
-    └── user_input_template.md
-
+├── 03_Logs.md
+└── 04_Conversation.md
 
 ```
 
